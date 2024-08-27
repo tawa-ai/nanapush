@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nanapush"
+authors = [{name = "pickles-bread-and-butter", email ="willettisaak@gmail.com"}]
+version = "0.0.1"
+requires-python = ">=3.10"
+dynamic = ["dependencies", "readme", "optional-dependencies"]
+
+[project.urls]
+Homepage = "https://github.tmc-stargate.com/enso/enso"
+Issues = "https://github.tmc-stargate.com/enso/enso/issues"
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.rst"]}
+dependencies = {file = ["requirements/requirements.txt"]}
+optional-dependencies = {dev = {file = ["requirements/dev.txt"]}}
