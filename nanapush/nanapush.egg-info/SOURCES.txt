@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+nanapush.egg-info/PKG-INFO
+nanapush.egg-info/SOURCES.txt
+nanapush.egg-info/dependency_links.txt
+nanapush.egg-info/requires.txt
+nanapush.egg-info/top_level.txt
+requirements/dev.txt
+requirements/requirements.txt
